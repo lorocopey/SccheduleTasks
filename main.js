@@ -1,6 +1,6 @@
 const cron = require('node-cron');
 
-// estos parametros se llamarian de la base de datos... 
+// estas tareas se llamarian de la base de datos... 
 
 var tasks = [
   {nombre:'Tarea 1',scheduled:'*/5 * * * * *',taskRef:null},
